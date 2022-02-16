@@ -74,7 +74,7 @@ nvim_tree.setup {
   },
   git = {
     enable = true,
-    ignore = true,
+    ignore = false, --if true, files are added to gitignore they are not shown in the nvim-tree 
     timeout = 500,
   },
   view = {
